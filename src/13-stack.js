@@ -24,7 +24,7 @@ class Stack {
   }
 
   peek() {
-    throw new Error('Not implemented');
+    return this.arr[this.arr.length - 1];
   }
 }
 
